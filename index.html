@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Starbucks</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section>
+		<div class="circle"></div>
+		<header>
+			<a href="#"><img src="img/logo.png" class="logo"></a>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="https://athome.starbucks.com/explore-our-coffees/" target="_blank">Menu</a></li>
+					<li><a href="https://athome.starbucks.com/contact-us/" target="_blank">Contact</a></li>
+				</ul>
+		</header>
+		<div class="content">
+			<div class="textbox">
+				<h2>It’s more than coffee. <br> It's <span>Starbucks</span></h2>
+				<p>
+					Starbucks At Home - Discover new coffee <br> formats, roasts,
+					how to's brew methods <br> and recipes to make your
+					perfect cup of coffee.
+				</p>
+				<a href="https://athome.starbucks.com/coffees-by-format/nespresso-vertuo" target="_blank">Discover</a>
+			</div>
+			<div class="imgbox">
+				<img src="img/img1.png" class="starbucks">
+			</div>
+		</div>
+		<ul class="thumb">
+			<li><img src="img/thumb1.png" onclick="imgSlider('img/img1.png'); 
+			changeCircleColor('#017143')">
+			</li>
+			<li><img src="img/thumb2.png" onclick="imgSlider('img/img2.png'); 
+			changeCircleColor('#eb7465')">
+			</li>
+			<li><img src="img/thumb3.png" onclick="imgSlider('img/img3.png'); 
+			changeCircleColor('#d752b1')">
+			</li>
+		</ul>
+		<ul class="social">
+			<li><a href="https://www.facebook.com/Starbucks/" target="_blank"><img src="img/facebook.png"></a></li>
+			<li><a href="https://www.instagram.com/starbucks/" target="_blank"><img src="img/instagram.png"></a></li>
+			<li><a href="https://twitter.com/starbucks" target="_blank"><img src="img/twitter.png"></a></li>
+		</ul>
+	</section>
+
+	<script src="script.js" defer ></script>
+</body>
+</html>
