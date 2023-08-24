@@ -5,8 +5,8 @@ Here are the technologies used in this project:
 * HTML, CSS, VANILLA JS
 
 ## Links
-* Deploy Github Pages: https://yvngwdson.github.io/starbucks/
-* Repository: https://github.com/yvngwdson/starbucks
+* Deploy Github Pages: https://wdsonhenrique.github.io/starbucks/
+* Repository: https://github.com/wdsonhenrique/starbucks
 
 ## Version
 1.0
